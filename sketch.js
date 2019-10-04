@@ -1,7 +1,7 @@
 let w = document.documentElement.clientWidth;
 let h = document.documentElement.clientHeight;
 function setup() {
-  createCanvas(w, 1000);
+  createCanvas(w, 3000);
 }
 function draw() {
   if (mouseIsPressed) {
