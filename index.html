@@ -1,12 +1,31 @@
 <!doctype html<
 <html>
 <head>
-  <script src="node_modules/p5/lib/p5.js"></script>
-  <script src="node_modules/p5/lib/addons/p5.sound.js"></script>
+  
+ 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
   <script src="sketch.js"></script>
 </head>
 <body>
+  <style>
+      body{font-family: Arial, Helvetica, sans-serif;
+      }
+      h1:hover{color:rebeccapurple;}
+      .howto{
+        padding-left: 20%;
+        z-index: 4;
+      }
+      
+     
+      .p5Canvas{
+        position: absolute;
+        top: 0%;
+        z-index: -10;
+      }
+      .tip:hover:before{ content:"                                                        press mouse to draw and double click to clear screen";
+      font-weight: 100;
+      padding: 420px;}
+      </style>
     <div class="howto">
         <h1>How to install p5.js library as npm module</h1>
         <div class="step">
